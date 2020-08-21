@@ -19,7 +19,7 @@ export default {
   },
   "stockDetailService": {
     "identifier" : "stockDetailService",
-    "endpoint": "stocks/full_details/",
+    "endpoint": "stocks/details/",
     "errorMsg": "Fetching stock detailed info failed",
     "loadMsg": "fetching detailed information about a stock"
   },

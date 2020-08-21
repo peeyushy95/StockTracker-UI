@@ -34,7 +34,7 @@ class TrendGrid extends Component {
             <Grid item>
               <LineChart
                 data={data}
-                x={'updated_at'}
+                x={'date'}
                 y={'ratio'}
                 width={width - 10}
                 height={70}

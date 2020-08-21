@@ -28,10 +28,10 @@ export default  {
     {headerName: "Name", field: "symbol"},
     {headerName: "Delivery", field: "delivery", valueFormatter: formatter},
     {headerName: "Volume", field: "volume"},
-    {headerName: "EMA Today", field: "ema_today",  valueFormatter: formatter },
-    {headerName: "EMA Yesterday", field: "ema_yesterday", valueFormatter: formatter},
+    {headerName: "EMA Today", field: "emaToday",  valueFormatter: formatter },
+    {headerName: "EMA Yesterday", field: "emaYesterday", valueFormatter: formatter},
     {headerName: "Price", field: "price"},
-    {headerName: "Last Update", field: "updated_at"},
+    {headerName: "Last Update", field: "updateDate"},
   ],
   context: {
   },

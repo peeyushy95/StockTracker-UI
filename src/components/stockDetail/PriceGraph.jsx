@@ -112,8 +112,8 @@ class PriceGraph extends Component {
                       data={stockInfo}
                       x={'date'}
                       y={'close'}
-                      y1={'ema_45'}
-                      y2={'sell_price'}
+                      y1={'ema45'}
+                      y2={'sellPrice'}
                       width={width}
                       height={height / 2}
                       stroke={'#ff0000'}

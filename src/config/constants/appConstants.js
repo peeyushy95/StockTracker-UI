@@ -10,7 +10,7 @@ const DEFAULT_CONSTANTS = {
     LOGOUT: '/logout',
     STOCK_DETAIL: '/stock/:name',
     BLOCK_BREAKER: '/blockBreaker',
-    BASE: '/bhaag-bc',
+    BASE: '/invalid',
   },
 };
 
