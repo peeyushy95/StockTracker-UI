@@ -73,7 +73,7 @@
   },
   "scripts": {
     "analyze": "source-map-explorer build/static/js/main.*",
-    "start": "REACT_APP_ENV=local node scripts/start.js",
+    "start": "set REACT_APP_ENV=local && node scripts/start.js",
     "build": "REACT_APP_ENV=local node scripts/build.js",
     "test": "node scripts/test.js --env=jsdom",
     "test:watch": "npm run test:new -- --watch"
