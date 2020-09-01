@@ -15,13 +15,13 @@ export default  {
           return params.data.flag === 4 ;
         },
         "below-ema": function(params) {
-          return params.data.flag === 3 ;
+          return params.data.flag === 2 ;
         },
         "etf": function(params) {
-          return params.data.flag === 1 ;
+          return params.data.flag === 3 ;
         },
         "others": function(params) {
-          return [0,2].includes(params.data.flag) ;
+          return [1].includes(params.data.flag) ;
         },
       }
     },

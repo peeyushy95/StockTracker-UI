@@ -25,10 +25,10 @@ class StocksTable extends Component {
         {key: -1, text: "All", checked: false},
         {key: 5, text: "Baap Stock", checked: true},
         {key: 4, text: "Above EMA", checked: false},
-        {key: 1, text: "ETF", checked: false},
-        {key: 3, text: "Below EMA", checked: false},
+        {key: 3, text: "ETF", checked: false},
+        {key: 2, text: "Below EMA", checked: false},
         {key: 0, text: "John Cena", checked: false},
-        {key: 2, text: "Sab bta de tumhe", checked: false},
+        {key: 1, text: "Sab bta de tumhe", checked: false},
       ],
       rowClassRules: {
         "baap-stock": function(params) {
@@ -38,7 +38,7 @@ class StocksTable extends Component {
           return params.data.flag === 4 ;
         },
         "below-ema": function(params) {
-          return params.data.flag === 3 ;
+          return params.data.flag === 2 ;
         }
       }
     };
